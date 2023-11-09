@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3713995f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
 
     
@@ -50,8 +52,7 @@
                 <a href="/login">Sign In / Sign Up</a>
             </div>
     </nav>
-    <article class="container mt-3">
-        <!-- Callout -->
+    <!--<div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -59,99 +60,106 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <div class="container-fluid callout-container"> 
+    <!-- Callout -->
+    <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                     <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                     <hr class="block-divider block-divider--orange">
                      <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
-                         <s class="d-none d-sm-inline">£19.99</s> <strong><mark>First one is free!</mark></strong></p>
-                         <span class="d-inline d-sm-none"><br></span>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                         <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                         <strong><mark>First one is free!</mark></strong></p>  
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                      <P class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsible.</small></P>
                 </section>
             </div>
         </div>
-
         <!-- /.callout -->
-        <hr>
+    </div>
 
         <!-- Quotes -->
-        <section class="quotes">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Quotes:</h2>
+        <div class="container quotes-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Quotes:</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="assets/images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="assets/images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
                         </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                                <p>- Jane Doe</p>
-                            </blockquote>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="assets/images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I haven't been sober for months!</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="assets/images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I haven't been sober for months!</p>
-                                <p>- Jane Doe</p>
-                            </blockquote>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
         <!-- /.quotes -->
-        <hr>
+        </div>  
 
         <!-- Features -->
-        <section class="features">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Features:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</p>
-                        <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
+        <div class="features-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Features:</h2>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fa-solid fa-credit-card d-none d-sm-inline"></i> Feature 2 </i></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</p>
-                        <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fa-solid fa-credit-card d-none d-sm-inline"></i> Feature 2 </i></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3> <i class="fa-solid fa-circle-xmark d-none d-sm-inline"></i> Feature 3 </i></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <div class="feature">
-                        <h3> <i class="fa-solid fa-circle-xmark d-none d-sm-inline"></i> Feature 3 </i></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</p>
-                        <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
         <!-- /.features -->
-        <hr>
+        </div>
 
         <!-- Monthly Favourites -->
         <section class="monthly-fav">
@@ -240,7 +248,7 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
 
-    </article>
+    
 </body>
 
 </html>
