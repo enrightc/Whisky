@@ -54,7 +54,7 @@ body {
 
     .features-container {}
 
-    /*block dividers*/
+    /*page header*/
 
     .page-header {
         margin-bottom: 0;
@@ -64,6 +64,10 @@ body {
 
     .page-header h2 {
         margin-top: 0;
+    }
+
+    .quotes .page-header {
+        margin-bottom: 25px;
     }
     /*block dividers*/
 
